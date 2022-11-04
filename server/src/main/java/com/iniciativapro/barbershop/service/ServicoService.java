@@ -1,6 +1,7 @@
 package com.iniciativapro.barbershop.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,5 +24,15 @@ public class ServicoService {
 
     public List<Servico> findAllServico() {
         return this.servicoRepository.findAll();
+    }
+
+    public Servico findServico(Long idServico) {
+        Optional<Servico> servico = this.servicoRepository.findById(idServico);
+        
+        if(servico.isPresent()){
+            return servico.get();
+        }
+
+        return null;
     }
 }
