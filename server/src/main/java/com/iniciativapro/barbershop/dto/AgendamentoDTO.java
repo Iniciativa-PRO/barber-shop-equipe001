@@ -1,13 +1,13 @@
 package com.iniciativapro.barbershop.dto;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 import com.iniciativapro.barbershop.model.Agendamento;
 import com.iniciativapro.barbershop.model.Servico;
 
 public class AgendamentoDTO {
     private Long id;
-    private Date dataAgendamento;
+    private LocalDate dataAgendamento;
     private Servico servico;
 
     public AgendamentoDTO(Agendamento agendamento){
@@ -22,10 +22,10 @@ public class AgendamentoDTO {
     public void setId(Long id) {
         this.id = id;
     }
-    public Date getDataAgendamento() {
+    public LocalDate getDataAgendamento() {
         return dataAgendamento;
     }
-    public void setDataAgendamento(Date dataAgendamento) {
+    public void setDataAgendamento(LocalDate dataAgendamento) {
         this.dataAgendamento = dataAgendamento;
     }
 

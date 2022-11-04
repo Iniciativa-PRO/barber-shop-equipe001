@@ -1,6 +1,6 @@
 package com.iniciativapro.barbershop.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -16,7 +16,7 @@ import javax.persistence.Table;
 public class Agendamento {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Date dataAgendamento;
+    private LocalDate dataAgendamento;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "idUsuario")
@@ -29,7 +29,7 @@ public class Agendamento {
     public Agendamento() {
     }
 
-    public Agendamento(Date dataAgendamento, Usuario usuario, Servico servico) {
+    public Agendamento(LocalDate dataAgendamento, Usuario usuario, Servico servico) {
         this.dataAgendamento = dataAgendamento;
         this.usuario = usuario;
         this.servico = servico;
@@ -39,7 +39,7 @@ public class Agendamento {
         return id;
     }
 
-    public Date getDataAgendamento() {
+    public LocalDate getDataAgendamento() {
         return dataAgendamento;
     }
 
