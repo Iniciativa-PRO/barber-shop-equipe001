@@ -18,8 +18,7 @@ public class Usuario {
     private String email;
     private String senha;
 
-    public Usuario() {
-    }
+    public Usuario(){}
 
     public Usuario(UsuarioDto usuario) {
         this.nome = usuario.getNome();
