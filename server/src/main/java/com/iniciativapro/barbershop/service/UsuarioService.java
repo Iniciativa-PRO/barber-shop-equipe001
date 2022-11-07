@@ -19,7 +19,7 @@ public class UsuarioService {
         return this.usuarioRepository.save(usuario);
     }
 
-    public Usuario findUsuario(Long id) {
+    public Usuario findByUsuario(Long id) {
         Optional<Usuario> usuario = this.usuarioRepository.findById(id);
         if(usuario.isPresent()){
             return usuario.get();
@@ -30,5 +30,9 @@ public class UsuarioService {
 
     public Optional<Usuario> findByEmail(String email){
         return this.usuarioRepository.findByEmail(email);
+    }
+
+    public Usuario findByNomeUsuario(String nome) {
+        return this.usuarioRepository.findByNome(nome);
     }
 }

@@ -2,31 +2,24 @@ package com.iniciativapro.barbershop.dto;
 
 import com.iniciativapro.barbershop.model.Usuario;
 
-public class UsuarioDataDto {
-    private Long id;
+public class RegistrarUsuarioReponseDto {
+    private Long idUsuario;
     private String nome;
     private String email;
 
-    public UsuarioDataDto(Long id, String nome, String email){
-        this.id = id;
-        this.nome = nome;
-        this.email = email;
-    }
-
-    public UsuarioDataDto(Usuario usuario){
-        this.id = usuario.getIdUsuario();
+    public RegistrarUsuarioReponseDto(Usuario usuario) {
+        this.idUsuario = usuario.getIdUsuario();
         this.nome = usuario.getNome();
         this.email = usuario.getEmail();
     }
 
-    public Long getId() {
-        return id;
-    }
     public String getNome() {
         return nome;
     }
     public String getEmail() {
         return email;
     }
-
+    public Long getIdUsuario() {
+        return idUsuario;
+    }
 }
