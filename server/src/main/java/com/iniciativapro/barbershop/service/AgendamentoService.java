@@ -29,11 +29,15 @@ public class AgendamentoService {
             .collect(Collectors.toList());
     }
 
-    public Optional<Agendamento> findAgendamento(Long id){
+    public Optional<Agendamento> findByAgendamento(Long id){
         return this.agendamentoRepository.findById(id);
     }
 
     public void deleteAgendamento(Long id) {
         this.agendamentoRepository.deleteById(id);
     }
+
+    // public void findByUsuarioAgendamento(Long id, Usuario idUsuario) {
+    //     this.agendamentoRepository.findByUsuarioAgendamento(id, idUsuario);
+    // }
 }

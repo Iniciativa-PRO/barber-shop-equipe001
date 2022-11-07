@@ -1,5 +1,6 @@
 package com.iniciativapro.barbershop.controller;
 
+import java.security.Principal;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
@@ -17,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.iniciativapro.barbershop.dto.AgendamentoDTO;
 import com.iniciativapro.barbershop.dto.CriarAgendamentoDto;
-import com.iniciativapro.barbershop.dto.UsuarioDataDto;
 import com.iniciativapro.barbershop.model.Agendamento;
 import com.iniciativapro.barbershop.model.Servico;
 import com.iniciativapro.barbershop.model.Usuario;
@@ -40,8 +40,8 @@ public class AgendamentoController {
 
 
     @GetMapping("/agendamento")
-    public ResponseEntity<List<AgendamentoDTO>> AllAgendamento(@RequestBody UsuarioDataDto usuarioData){
-        Usuario usuario = usuarioService.findUsuario(usuarioData.getId());
+    public ResponseEntity<List<AgendamentoDTO>> AllAgendamento(Principal principal){
+        Usuario usuario = usuarioService.findByNomeUsuario(principal.getName());
         
         if(usuario != null){
             List<AgendamentoDTO> agendamento = agendamentoService.findAllAgendamentos(usuario);
@@ -52,8 +52,8 @@ public class AgendamentoController {
     }
 
     @PostMapping("/agendamento")
-    public ResponseEntity<AgendamentoDTO> CriarAgendamento(@RequestBody CriarAgendamentoDto criarAgendamentoDto){
-        Usuario usuario = usuarioService.findUsuario(criarAgendamentoDto.getIdUsuario());
+    public ResponseEntity<AgendamentoDTO> CriarAgendamento(@RequestBody CriarAgendamentoDto criarAgendamentoDto, Principal principal){
+        Usuario usuario = usuarioService.findByNomeUsuario(principal.getName());
         Servico servico = servicoService.findServico(criarAgendamentoDto.getIdServico());
         
         if(usuario != null && servico != null){
@@ -72,10 +72,11 @@ public class AgendamentoController {
     }
 
     @DeleteMapping("/agendamento/{id}")
-    public ResponseEntity<?> DeleteAgendamento(@RequestBody UsuarioDataDto usuarioData, @PathVariable Long id){
+    public ResponseEntity<?> DeleteAgendamento(@PathVariable Long id, Principal principal){
+
+        Usuario usuario = usuarioService.findByNomeUsuario(principal.getName());
+        Optional<Agendamento> agendamento = agendamentoService.findByAgendamento(id);
         
-        Usuario usuario = usuarioService.findUsuario(usuarioData.getId());
-        Optional<Agendamento> agendamento = agendamentoService.findAgendamento(id);
 
         if(usuario != null && agendamento.isPresent()){
             agendamentoService.deleteAgendamento(id);
