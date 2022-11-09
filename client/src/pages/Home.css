@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+
+
+.home {
+  text-align: center;
+  background-image: url('/client/src/img/banner.png');
+  background-size: contain ;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 55vw;
+
+  margin: 0 0;
+}
+
+.informacoes-home{
+  margin-left: 180px;  
+
+}
+
+.container-titulo{
+  display: block;
+}
+
+.titulo{
+  color: #ecb074;
+
+  width: 512px;
+  height: 44px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+
+  padding-top: 200px;
+}
+
+.container-bem-vindo{
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+  width: 400px;
+}
+
+.texto-bem-vindo{
+  color: #ffff;
+ 
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.container-botao {
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.botao-agendar {
+  width: 370px;
+  height: 76px;
+  
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  align-items: center;
+
+  padding: 25px;
+  border: none;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 20px;
+  background-color: #ecb074;
+}

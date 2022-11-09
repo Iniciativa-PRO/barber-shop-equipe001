@@ -1,0 +1,33 @@
+.navegacao{
+    box-sizing: border-box;
+    background-color: #111111;
+    display: flex;
+
+}
+
+.logo{
+    margin: 50px 10px;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+}
+
+.itens a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.itens a:hover{
+    cursor: pointer;
+    font-size: 18px;
+    color: #adadaa;
+    line-height: 1.5;
+    padding-right: 5px;
+    text-decoration: none;
+    text-decoration: none;
+}
