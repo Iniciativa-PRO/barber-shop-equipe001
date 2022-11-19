@@ -12,6 +12,8 @@ public class LoginFormDto {
     @NotNull @NotEmpty
     private String email;
 
+    public LoginFormDto(){}
+
     public LoginFormDto(@NotNull @NotEmpty String senha, @NotNull @NotEmpty String email) {
         this.senha = senha;
         this.email = email;

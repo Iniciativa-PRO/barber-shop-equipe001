@@ -11,6 +11,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
 
+import com.iniciativapro.barbershop.exceptions.NoAuthorized;
 import com.iniciativapro.barbershop.model.Usuario;
 import com.iniciativapro.barbershop.repository.UsuarioRepository;
 
@@ -31,20 +32,29 @@ public class AuthTokenFilter extends OncePerRequestFilter {
 
         String token = getToken(request);
         boolean tokenValid = tokenService.isTokenValid(token);
-        
-        if (tokenValid){
-            authenticate(token);
-        }
 
-        filterChain.doFilter(request, response);
+        
+        try {
+            if(tokenValid){
+                authenticate(token);
+            }
+
+            filterChain.doFilter(request, response);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }      
     }
 
-    private void authenticate(String token) {
-        String username = tokenService.getUsername(token);
-        Usuario usuario = usuarioRepository.findByNome(username);
+    private void authenticate(String token) throws Exception {
+        try {
+            String username = tokenService.getUsername(token);
+            Usuario usuario = usuarioRepository.findByNome(username);
 
-        UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(usuario, null, usuario.getAuthorities());
-        SecurityContextHolder.getContext().setAuthentication(authentication);
+            UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(usuario, null, usuario.getAuthorities());
+            SecurityContextHolder.getContext().setAuthentication(authentication);
+        } catch (Exception e) {
+            throw new NoAuthorized();
+        }
     }
 
     private String getToken(HttpServletRequest request) {

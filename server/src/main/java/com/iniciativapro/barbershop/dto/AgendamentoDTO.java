@@ -10,6 +10,9 @@ public class AgendamentoDTO {
     private LocalDate dataAgendamento;
     private Servico servico;
 
+    public AgendamentoDTO() {
+    }
+
     public AgendamentoDTO(Agendamento agendamento){
         this.id = agendamento.getId();
         this.dataAgendamento = agendamento.getDataAgendamento();
