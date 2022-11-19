@@ -65,7 +65,7 @@ public class AgendamentoController {
 
             AgendamentoDTO agendamentoDto = new AgendamentoDTO(agendamento);
 
-            return ResponseEntity.ok().body(agendamentoDto);
+            return ResponseEntity.status(201).body(agendamentoDto);
         }
 
         return ResponseEntity.notFound().build();
@@ -73,17 +73,15 @@ public class AgendamentoController {
 
     @DeleteMapping("/agendamento/{id}")
     public ResponseEntity<?> DeleteAgendamento(@PathVariable Long id, Principal principal){
-
         Usuario usuario = usuarioService.findByNomeUsuario(principal.getName());
         Optional<Agendamento> agendamento = agendamentoService.findByAgendamento(id);
         
 
         if(usuario != null && agendamento.isPresent()){
             agendamentoService.deleteAgendamento(id);
-            return ResponseEntity.ok().build();
+            return ResponseEntity.status(202).build();
         }
 
-        return ResponseEntity.notFound().build();
-        
+        return ResponseEntity.notFound().build();    
     }
 }

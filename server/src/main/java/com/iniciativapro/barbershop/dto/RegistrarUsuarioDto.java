@@ -9,6 +9,8 @@ public class RegistrarUsuarioDto {
     private String email;
     private String senha;
 
+    public RegistrarUsuarioDto(){}
+    
     public RegistrarUsuarioDto(String nome, String email, String senha) {
         this.nome = nome;
         this.email = email;
