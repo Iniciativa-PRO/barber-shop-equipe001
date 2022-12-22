@@ -31,7 +31,7 @@
     overflow: hidden;
     padding: 77px 55px 33px 55px;
 
-    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .login-form{
@@ -108,7 +108,7 @@
     width: 100%;
     position: absolute;
     top: 16px;
-    left: 0px;
+    left: 0;
 
     padding-left: 5px;
 }
