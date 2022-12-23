@@ -18,7 +18,7 @@
 - [Ferramentas Utilizadas](#-ferramentas-utilizadas)
 - [Pré Requisitos](#-pré-requisitos)
 - [Executar / Testar](#-executar--testar)
-- [Autores / Colaboradores](#-autores--colaboradores)
+- [Colaboradores](#-autores--colaboradores)
 - [Licença](#-licença)
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/3534/3534033.png" style="widht:30px; height:30px;" /> Descrição
@@ -108,7 +108,7 @@ npm run dev
 ```
 
 
-## <img height="30px" src="https://img.icons8.com/fluency/48/null/conference-call.png"/> Autores / Colaboradores
+## <img height="30px" src="https://cdn-icons-png.flaticon.com/512/166/166258.png"/> Autores / Colaboradores
 
 | [<img src="https://avatars.githubusercontent.com/u/102614111?v=4" width=115><br><sub>Amanda Fernandes</sub>](https://github.com/amandaafernandes) | [<img src="https://avatars.githubusercontent.com/u/49912598?v=4" width=115><br><sub>Darlisson Limeira</sub>](https://github.com/drkcode) | [<img src="https://avatars.githubusercontent.com/u/100237670?v=4" width=115><br><sub>Ygor Guilherme</sub>](https://github.com/ygorfsguilherme) |
 | :---: | :---: | :---: |
