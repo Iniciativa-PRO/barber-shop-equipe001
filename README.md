@@ -1,7 +1,6 @@
 
-
 <div align="center">
-   <img src="https://user-images.githubusercontent.com/100237670/209391171-563f8264-d752-47d8-8f0e-eaaf1a91ff31.png" />
+   <img src="https://user-images.githubusercontent.com/100237670/209409552-5a54d717-09cb-4c77-971d-3c1468910859.svg" />
    <h1>Barber Shop</h1>
 </div>
 
