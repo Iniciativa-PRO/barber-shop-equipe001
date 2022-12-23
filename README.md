@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="https://user-images.githubusercontent.com/100237670/205465701-884df909-389d-41f8-9311-b908bedb9030.svg" />
+   <h1>Barber Shop</h1>
 </div>
 
 <p align="center">
