@@ -18,7 +18,7 @@
 - [Ferramentas Utilizadas](#-ferramentas-utilizadas)
 - [Pré Requisitos](#-pré-requisitos)
 - [Executar / Testar](#-executar--testar)
-- [Colaboradores](#-autores--colaboradores)
+- [Colaboradores](#-colaboradores)
 - [Licença](#-licença)
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/3534/3534033.png" style="widht:30px; height:30px;" /> Descrição
