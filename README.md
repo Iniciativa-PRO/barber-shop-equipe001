@@ -40,14 +40,17 @@
 - [Figma - Representação das funcionalidades e designer](https://www.figma.com/file/DwhPS46WwLZZ8GyeABdl5L/Barbearia?node-id=0%3A1)
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/1835/1835211.png" style="widht:30px; height:30px;" /> Ferramentas Utilizadas
-- <img height="20px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React
+
+- <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" /> Trello
+- <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /> Figma
+- <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React
 - <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /> Javascript
 - <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> Java
 - <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" /> Spring boot
 - <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> CSS
 - <img height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> HTML 5
 
-Outras tecnologias como, banco de dados H2, spring security e jwt.
+Outras tecnologias como, banco de dados H2, spring security, jwt e react router.
 
 ## <img height="35px" src="https://img.icons8.com/fluency/96/null/requirement.png"/> Pré-requisitos
 - [Nodejs 18.xx](https://nodejs.org)
