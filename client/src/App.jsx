@@ -1,12 +1,11 @@
-import { Routes, Route, Outlet, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
-import React, { useState } from 'react';
-import { Home } from './views/Home';
+import { Home } from './pages/Home';
 import { MainLayout } from './layout/MainLayout';
-import { Login } from './views/Login';
-import { Agendar } from './views/Agendar';
+import { Login } from './pages/Login';
+import { ScheduleAppointment } from './pages/ScheduleAppointment';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
-          <Route path="agendar" element={<Agendar />} />
+          <Route path="agendar" element={<ScheduleAppointment />} />
           <Route path="*" element={<h1> 404 Not found </h1>} />
         </Route>
       </Routes>
