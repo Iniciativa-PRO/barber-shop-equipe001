@@ -40,6 +40,7 @@ button:hover {
 .row {
   width: 900px;
   margin: 0 auto;
+  padding: 5rem 0;
 }
 
 .container {
