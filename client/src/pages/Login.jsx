@@ -1,4 +1,4 @@
-import LogoIniciativaPro from '../img/iniciativa-pro-logo.png';
+import LogoIniciativaPro from '../assets/img/iniciativa-pro-logo.png';
 
 import '../App.css';
 
