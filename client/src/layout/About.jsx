@@ -3,7 +3,7 @@ import '../assets/style/About.css';
 
 export function About() {
   return (
-    <div className="row about">
+    <section className="row about">
       <div className="about__content">
         <h2 className="about__title">Sobre nós</h2>
         <h3 className="about__welcome">Bem-vindo a Pro Babershop</h3>
@@ -15,6 +15,6 @@ export function About() {
         </p>
       </div>
       <img className="about__image" src={aboutImage} />
-    </div>
+    </section>
   );
 }

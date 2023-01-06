@@ -4,7 +4,7 @@ import '../assets/style/Hero.css';
 
 export function Hero() {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="hero__content row">
         <h1 className="hero__title">Pro Babershop</h1>
         <p className="hero__apresentation">
@@ -18,6 +18,6 @@ export function Hero() {
           </button>
         </Link>
       </div>
-    </div>
+    </section>
   );
 }
