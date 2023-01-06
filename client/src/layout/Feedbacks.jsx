@@ -3,7 +3,7 @@ import '../assets/style/Feedbacks.css';
 
 export function Feedbacks() {
   return (
-    <div className="feedbacks">
+    <section className="feedbacks">
       <div className="row feedbacks__content">
         <img className="feedbacks__icon" src={feedbackComment} />
         <div className="feedback">
@@ -11,6 +11,6 @@ export function Feedbacks() {
           <p className="feedback__costumer">Fulano de tal</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
