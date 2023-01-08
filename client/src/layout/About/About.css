@@ -7,11 +7,11 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .about__title {
-  font-size: 2rem;
+  font-size: 2.4rem;
   position: relative;
 }
 
@@ -20,14 +20,14 @@
   top: -100%;
   display: block;
   content: '';
-  width: 100px;
+  width: 70px;
   height: 4px;
   background-color: var(--orange);
   z-index: 2;
 }
 
 .about__welcome {
-  font-size: 2.5rem;
+  font-size: 3.6rem;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   color: var(--orange);

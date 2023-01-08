@@ -1,0 +1,8 @@
+.services {
+  background-color: var(--outer-space);
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+}

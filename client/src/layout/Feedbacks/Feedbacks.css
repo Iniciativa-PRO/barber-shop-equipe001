@@ -1,5 +1,5 @@
 .feedbacks {
-  background-image: url('../img/feedbacks-banner.png');
+  background-image: url('../../assets/img/feedbacks-banner.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -31,7 +31,7 @@
 .feedback__comment,
 .feedback__costumer {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.6rem;
 }
 
 .feedback__comment {

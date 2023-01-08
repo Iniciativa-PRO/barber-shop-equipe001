@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import './assets/lib/reset.css';
 import './assets/lib/normalize.css';
+import './assets/style/global.css';
 import './App.css';
 
 import { Home } from './pages/Home';

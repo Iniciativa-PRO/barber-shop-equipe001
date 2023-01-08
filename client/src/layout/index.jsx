@@ -1,11 +1,11 @@
-import { About } from './About';
-import { Feedbacks } from './Feedbacks';
-import { Footer } from './Footer';
-import { Header } from './Header';
-import { Hero } from './Hero';
-import { Professionals } from './Professionals';
-import { Schedule } from './Schedule';
-import { Services } from './Services';
+import { About } from './About/About';
+import { Feedbacks } from './Feedbacks/Feedbacks';
+import { Footer } from './Footer/Footer';
+import { Header } from './Header/Header';
+import { Hero } from './Hero/Hero';
+import { Professionals } from './Professionals/Professionals';
+import { Schedule } from './Schedule/Schedule';
+import { Services } from './Services/Services';
 
 export {
   About,

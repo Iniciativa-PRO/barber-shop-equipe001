@@ -1,0 +1,45 @@
+:root {
+  font-size: 62.5%;
+
+  --orange: #ecb074;
+  --orange-hover: #ca9763;
+  --black: #000;
+  --brown: #2d2118;
+  --white: #ffff;
+  --outer-space: #364041;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.row {
+  width: 900px;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
