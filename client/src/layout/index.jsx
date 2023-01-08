@@ -6,6 +6,7 @@ import { Hero } from './Hero/Hero';
 import { Professionals } from './Professionals/Professionals';
 import { Schedule } from './Schedule/Schedule';
 import { Services } from './Services/Services';
+import { Gallery } from './Gallery/Gallery';
 
 export {
   About,
@@ -16,4 +17,5 @@ export {
   Professionals,
   Schedule,
   Services,
+  Gallery,
 };

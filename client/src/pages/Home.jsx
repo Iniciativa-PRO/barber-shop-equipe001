@@ -6,6 +6,7 @@ import {
   Schedule,
   Professionals,
   Footer,
+  Gallery,
 } from '../layout';
 
 export function Home() {
@@ -15,6 +16,7 @@ export function Home() {
       <About />
       <Feedbacks />
       <Services />
+      <Gallery />
       <Schedule />
       <Professionals />
       <Footer />
