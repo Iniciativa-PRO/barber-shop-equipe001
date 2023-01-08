@@ -1,0 +1,33 @@
+.services-table__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-table__service-name,
+.services-table__service-price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.services-table__service-name {
+  color: var(--white);
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.services-table__service-name::after {
+  width: 100%;
+  margin-left: 0.5em;
+  content: '';
+  position: absolute;
+  top: 50%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.434);
+  z-index: 1;
+}
+
+.services-table__service-price {
+  color: var(--orange);
+  text-align: right;
+  margin-left: 0.5em;
+}

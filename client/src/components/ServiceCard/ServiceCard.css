@@ -1,0 +1,34 @@
+.service {
+  width: calc(900px / 4 - 20px);
+}
+
+.service__image {
+  height: 100px;
+  display: block;
+  margin: 0 auto 3em auto;
+}
+
+.service__title {
+  text-align: center;
+  font-size: 2.6rem;
+  color: var(--white);
+  margin-bottom: 1.5em;
+  position: relative;
+}
+
+.service__title::after {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 2px;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--orange);
+}
+
+.service__description {
+  font-size: 1.6rem;
+  color: var(--white);
+  line-height: 150%;
+}

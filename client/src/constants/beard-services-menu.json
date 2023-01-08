@@ -1,0 +1,9 @@
+[
+  { "id": "1", "name": "Barba tradicional", "price": "30" },
+  { "id": "2", "name": "Cavanhaque", "price": "30" },
+  { "id": "3", "name": "Barba arrendondada", "price": "30" },
+  { "id": "4", "name": "Barba degradê", "price": "30" },
+  { "id": "5", "name": "Van Dyke", "price": "30" },
+  { "id": "6", "name": "Balbo", "price": "30" },
+  { "id": "7", "name": "Barba lenhador", "price": "30" }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "../../src/assets/img/scissor.png",
+    "title": "Corte",
+    "description": "Corte, lavação com Shampoo e Condicionador e finalização com a linha de produtos para cabelo Iniciativa PRO, somados a tradicional técnica de barbear, a uma relaxante toalha quente, óleo pré-shave, espuma de barbear aquecida, finalizada com a linha de produtos para barba da Iniciativa PRO."
+  },
+  {
+    "id": 2,
+    "image": "../../src/assets/img/razor.png",
+    "title": "Barba",
+    "description": "Tradicional técnica de barbear somada a uma relaxante toalha quente, óleo pré-shave, espuma de barbear aquecida. Processo finalizado com massagem relaxante para ativar a circulação utilizando a linha de produtos para barba da Iniciativa PRO, After Shave Lotion e Beard Styling Balm."
+  },
+  {
+    "id": 3,
+    "image": "../../src/assets/img/hair.png",
+    "title": "Cabelo",
+    "description": "Corte, lavação com Shampoo e Condicionador e finalização com a linha de produtos para cabelo Iniciativa PRO, somados a tradicional técnica de barbear, a uma relaxante toalha quente, óleo pré-shave, espuma de barbear aquecida, finalizada com a linha de produtos para barba da Iniciativa PRO."
+  },
+  {
+    "id": 4,
+    "image": "../../src/assets/img/hair-clipper.png",
+    "title": "Máquina",
+    "description": "Corte de cabelo com apenas uma gradação(um pente) de maquina sem uso de tesoura, mais lavação com Shampoo e Condicionador Iniciativa PRO. Finalização com produtos da linha Iniciativa PRO Barbearia."
+  }
+]
