@@ -7,6 +7,7 @@
   --brown: #2d2118;
   --white: #ffff;
   --outer-space: #364041;
+  --dark-grayish: #333131;
 }
 
 * {
@@ -36,6 +37,10 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+caption {
+  text-align: start;
 }
 
 .row {

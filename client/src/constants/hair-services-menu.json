@@ -1,0 +1,9 @@
+[
+  { "id": "1", "name": "Corte básico", "price": "15" },
+  { "id": "2", "name": "Corte com tesoura", "price": "30" },
+  { "id": "3", "name": "Corte texturizado", "price": "30" },
+  { "id": "4", "name": "Corte militar", "price": "30" },
+  { "id": "5", "name": "French crop", "price": "30" },
+  { "id": "6", "name": "Side parting", "price": "30" },
+  { "id": "7", "name": "Shaped afro", "price": "30" }
+]

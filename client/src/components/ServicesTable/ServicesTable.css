@@ -1,0 +1,17 @@
+tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 100%;
+}
+
+.services-table {
+  flex-grow: 1;
+}
+
+.services-table__caption {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: var(--orange);
+  margin-bottom: 0.5em;
+}
