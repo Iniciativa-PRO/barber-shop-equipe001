@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "../../src/assets/img/gallery/gallery-image-1.png",
+    "name": "Barba na navalha e pigmentação de barba",
+    "description": "Tradicional técnica de barbear somada a pigmentação de barba. Começando com uma relaxante toalha quente, óleo pré-shave e espuma de barbear aquecida. Processo finalizado com massagem relaxante para ativar a circulação utilizando a linha de produtos para barba de mais alta qualidade."
+  },
+  {
+    "id": 2,
+    "image": "../../src/assets/img/gallery/gallery-image-2.png",
+    "name": "Escova progressiva e cabelos curtos",
+    "description": "Técnica utilizada para alisar os cabelos, também ajuda a tratar e diminuir o volume dos fios. Ela é chamada “progressiva” pelo efeito gradual que causa nos cabelos a cada aplicação: eles vão ficando progressivamente mais finos e menos cheios. Produtos importados sem formol."
+  },
+  {
+    "id": 3,
+    "image": "../../src/assets/img/gallery/gallery-image-3.png",
+    "name": "Acabamentos",
+    "description": "Velho e bom “pezinho” ou “pé de cabelo” a navalha como era chamado antigamente, contorno do corte apenas feito com navalhete e lamina descartável importada."
+  }
+]

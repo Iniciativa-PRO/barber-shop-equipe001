@@ -1,0 +1,8 @@
+.section-header__title--black {
+  color: var(--black);
+}
+
+.gallery__categories {
+  display: flex;
+  gap: 2em;
+}
